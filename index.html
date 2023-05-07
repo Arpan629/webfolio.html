@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Arpan Ghosh</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="quallification.html">Quallifications</a></li>
+                        <li><a href="pb.html">Personal Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="pic">
+                    <img src="pic.jpg" alt="Profile Picture">
+                </div>
+                <div class="text">
+                    <h5>Hi, I'm <span class="input">Front-End Developer</span></h5>
+                    <h1>Arpan Ghosh</h1>
+                    <p>A budding enthusiastic Web Developer, passionate about JavaScript development. Seeking to advance a growing tech career as a Front-End Developer in a competitive environment.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download CV</a>
+                        <a href="#" class="btn">Contact Me</a>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/36e647dffd.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script>
+    var typed = new Typed(".input", {
+        strings:["Front-End Developer", "Backend Developer", "Full Stack Developer"],
+        typedSpeed: 77,
+        backSpeed: 55,
+        loop: true
+    })
+</script>
+</html>
